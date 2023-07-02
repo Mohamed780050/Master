@@ -146,6 +146,9 @@ header .main-nav > li > a:hover,
 header .main-nav > li > a:hover::before {
   left: 0;
 }
+header .main-nav > li.active > a::before {
+  left: 0;
+}
 /* Mega Menu */
 header .mega-menu {
   position: absolute;
